@@ -8,6 +8,8 @@
  **
  */
 
-// empty index.php to prevent directory browsing.
-
+class Entity
+{
+    
+}
 ?>

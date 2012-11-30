@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  ** Treat - Tool for reporting and analysis of test results
  ** Copyright (c) 2012 Danny Havenith
@@ -8,6 +8,7 @@
  **
  */
 
-// empty index.php to prevent directory browsing.
-
-?>
+function treat_encode( $object_type, $object)
+{
+    return json_encode($object);
+}

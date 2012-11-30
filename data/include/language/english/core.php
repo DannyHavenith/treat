@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  ** Treat - Tool for reporting and analysis of test results
  ** Copyright (c) 2012 Danny Havenith
@@ -8,6 +8,4 @@
  **
  */
 
-// empty index.php to prevent directory browsing.
-
-?>
+$treat_strings['unknown_entity'] = 'Unknown entity: %s, available entities are: %s';
