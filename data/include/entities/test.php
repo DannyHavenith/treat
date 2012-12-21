@@ -14,8 +14,7 @@ class TestEntity {
     
     function get( PDO $db, array $query)
     {
-        if (count( $query) >= 2)
-        {
+        if (count( $query) >= 2) {
             $key = $query[1];
             return $this->fetch_single( $db, $key);
         }

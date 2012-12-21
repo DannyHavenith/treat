@@ -19,8 +19,8 @@ require_once 'include/database.php';
 require_once 'include/encode.php';
 
 // determine the query argument, if none was given, assume 'tests', which will produce a list of all tests
-if(isset($_GET['q'])) {
-    $query = $_GET['q'];
+if(isset($_GET['a'])) {
+    $query = $_GET['a'];
 }
 else {
     $query = 'tests';
