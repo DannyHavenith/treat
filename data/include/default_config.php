@@ -9,6 +9,13 @@
  */
 
 require_once 'entities/test.php';
+//require_once 'entities/report.php';
+//require_once 'entities/value.php';
+require_once 'entities/variable.php';
 
 $treat_entities = array();
-$treat_entities['tests'] = new TestEntity();
+$treat_entities['test'] = new TestEntity();
+//$treat_entities['report'] = new ReportEntity();
+//$treat_entities['value'] = new ValueEntity();
+$treat_entities['variable'] = new VariableEntity();
+

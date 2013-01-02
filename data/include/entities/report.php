@@ -7,12 +7,13 @@
  ** http://www.boost.org/LICENSE_1_0.txt)
  **
  */
+
 require_once 'entity.php';
 
-class TestEntity extends Entity {
-    
-    function __construct()
+class ReportEntity extends Entity
+{
+    public function __construct()
     {
-        parent::__construct( 'test', 'id', array('test_name'));
-    }   
+        parent::__construct('report', 'id', array('test_id','time','report_time'), array( 'value' => 'report_id'));
+    }
 }

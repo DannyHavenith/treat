@@ -9,10 +9,10 @@
  */
 require_once 'entity.php';
 
-class TestEntity extends Entity {
-    
-    function __construct()
-    {
-        parent::__construct( 'test', 'id', array('test_name'));
-    }   
+class VariableEntity extends Entity 
+{
+     public function __construct()
+     {
+         parent::__construct('variable', 'id', array('name'));
+     }   
 }
